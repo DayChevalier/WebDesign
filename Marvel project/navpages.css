@@ -1,0 +1,148 @@
+﻿/* navigation for pages */
+
+
+body {
+  font-size: 1.1em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E41B17;
+}
+
+* {
+  margin: 0; 
+  padding: 0;
+}
+
+#container { 
+  margin: 0 auto;
+  width: 930px;
+  border-width: 1px; /* needed for Firefox so that when the screen is enlarged, the document remains centered */
+}
+
+#wrapper {
+	width: 930px;
+	background-image: url(wrapper.png);
+	background-repeat: repeat-y;
+	overflow: auto; /* needed for Firefox */
+}
+
+#header {
+	width: 930px;
+	background-color: black;
+	magrin-bottom: 10px;
+}
+
+#navbar {
+	width:910px;
+	margin: 0 0 0 0;
+	padding: 10px;
+	background-image: url(attempt.png);
+	text-align: center;
+	height: 25px;
+}
+
+#navbar a:link {
+  color: blue;
+}
+
+#navbar a:visited {
+  color: purple;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: #E41B17;
+}
+
+#sidebar {
+	width: 200px;
+	margin: 0 10px 10px 0;
+	padding: 10px;
+	float: left;
+}
+
+
+#sidebar p {
+	margin: 0.2em;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+#main {
+	width: 450px;
+	margin: 0 0 10px 0;
+	padding: 10px;
+	float: left;
+	color: black;
+}
+
+#main ul {
+	margin: 0.6em;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+#main p {
+	text-indent: 1.5em;
+}
+
+#section {
+	width: 200px;
+	margin: 0 0 10px 8 px;
+	padding: 10px;
+	float: right;
+}
+
+#section ul {
+	margin: 0.2em;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+
+img.center {
+	display: block;
+	width: auto;
+	margin: 10px auto;
+}
+
+#caption {
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.4em;
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+
+h3 {
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+
+#footer {
+	width: 910px;
+	margin: 0px;
+	padding: 10px;
+	background-image: url(attempt2.png);
+	background-color: white;
+	clear: both;
+	color: black;
+	text-align: center;
+}
+
+#footer a:link {
+  color: black;
+  text-transform: uppercase;
+}
+
+#footer a:visited {
+  color: purple;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #E41B17;
+}
